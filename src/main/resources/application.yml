@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@123.57.147.232:15215:orcl
+    username: CLUB
+    password: CLUBTEST
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    database: oracle
+
+  ##Mybatis扫描的位置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  #配置文件地址
+  #check-config-location: classpath:mybatis-config.xml
